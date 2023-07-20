@@ -17,6 +17,11 @@ public class Settings : MonoBehaviour
         PanelSet.SetActive(true);
     }
 
+    public void PanelSessingsFalse()
+    {
+        PanelSet.SetActive(false);
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
